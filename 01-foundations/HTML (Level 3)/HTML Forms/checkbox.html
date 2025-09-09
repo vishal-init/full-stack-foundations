@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox in HTML</title>
+</head>
+<body>
+    <h1>Checkbox in HTML</h1>
+    <form action="/action">
+        <!--checked attribute makes the checkbox pre-selected by default.-->
+        <!--value="yes" → Ensures "yes" is sent if checked, otherwise nothing is sent.-->
+        <h2>Age Confirmation</h2>
+        <input type="checkbox" id="age" name="age" value="yes" checked>
+        <label for="age">I am 18+</label>
+
+        <h2>Choose your subjects</h2>
+        <input type="checkbox" name="subjects" id="dbms" value="dbms">
+        <label for="dbms">DBMS</label>
+        <input type="checkbox" name="subjects" id="dsa" value="dsa">
+        <label for="dsa">DSA</label>
+        <input type="checkbox" name="subjects" id="oops" value="oops">
+        <label for="oops">OOPS</label>
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
