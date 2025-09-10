@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(255, 0, 0);/*using rgb system*/
+    background-color:antiquewhite;/*using name system*/
+}
+
+p {
+    color: blue;
+}
+
+button {
+    color:white;
+    background-color:#0000ff;/*using Hex system*/
+}

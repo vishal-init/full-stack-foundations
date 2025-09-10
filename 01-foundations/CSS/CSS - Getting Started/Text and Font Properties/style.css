@@ -1,0 +1,33 @@
+/* Main heading */
+h1 {
+    text-align: center;
+    text-decoration: red double underline;
+    letter-spacing: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Secondary heading */
+h2 {
+    text-align: left;
+    font-weight: 800;
+    text-decoration: red underline;
+}
+
+/* Subheading */
+h3 {
+    text-align: end;
+}
+
+/* Paragraph styling */
+p {
+    text-align: end;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Avant Garde', sans-serif;
+}
+
+/* Remove default underline from links */
+a {
+    text-decoration: none;
+}

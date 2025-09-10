@@ -1,0 +1,51 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa872;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02a;
+}
+
+/*Transform - Rotate*/
+
+#one {
+    transform: rotate(45deg);
+}
+
+/*Tranform - Scale*/
+
+#two {
+    transform: scale(0.5, 1.5);
+}
+
+/*Tranform - Trasnlate*/
+
+#three {
+    transform: translate(100px, 100px);
+}
+
+/*Tranform - Skew*/
+
+#four {
+    transform: skew(30deg);
+}
+
+/*Transform - Combinations*/
+
+#five {
+    transform: rotate(30deg) translateX(100px);
+}
